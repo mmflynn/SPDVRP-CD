@@ -1,0 +1,49 @@
+Comment,S=3_D=2_X=1(0)_4
+Site, X, Y, Vertex
+X0,6.4,6.5,0
+Supplier, X, Y, Vertex
+S0,2.5,6.2,1
+S1,6.9,9.95,2
+S2,5.3,8.3,3
+Destination, X, Y, Vertex
+D0,9.3,0.05,4
+D1,8.2,8.0,5
+Order, To, Qty, ect, ldt,
+S0,D1,2,0,600,0
+S1,D0,1,0,600,1
+S0,D0,1,0,600,2
+S2,D1,3,0,600,3
+Routes
+route0,"[X0,S2,S0,X0]"
+route1,"[X0,D1,S1,S2,X0]"
+route2,"[X0,S2,S1,X0]"
+route3,"[X0,S1,S2,S0,X0]"
+route4,"[X0,S1,D1,X0]"
+route5,"[X0,S1,S0,D0,X0]"
+route6,"[X0,S1,D0,X0]"
+route7,"[X0,D1,X0]"
+route8,"[X0,D1,S1,D0,X0]"
+route9,"[X0,D1,S1,D1,X0]"
+route10,"[X0,D1,S2,D0,X0]"
+route11,"[X0,S1,X0]"
+route12,"[X0,S0,S2,D1,X0]"
+route13,"[X0,S1,S2,X0]"
+route14,"[X0,S0,S1,D1,X0]"
+route15,"[X0,D1,S1,X0]"
+route16,"[X0,S0,S2,S1,X0]"
+route17,"[X0,S0,D0,X0]"
+route18,"[X0,S0,D1,X0]"
+route19,"[X0,S2,X0]"
+route20,"[X0,D1,D0,X0]"
+route21,"[X0,S1,S0,D0,S2,X0]"
+route22,"[X0,S0,S1,D1,S2,X0]"
+route23,"[X0,D1,S1,S2,S0,X0]"
+route24,"[X0,D0,X0]"
+route25,"[X0,S2,D0,X0]"
+route26,"[X0,S2,D1,X0]"
+route27,"[X0,S0,X0]"
+route28,"[X0,D1,S1,S0,D0,X0]"
+route29,"[X0,S2,X0]"
+route30,"[X0,D0,X0]"
+route31,"[X0,D1,X0]"
+Exit,

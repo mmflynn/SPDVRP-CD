@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use these test instance, please cite it as below."
+authors:
+- family-names: "Flynn"
+  given-names: "Michael"
+  orcid: "https://orcid.org/0000-0002-0642-2760"
+title: "Test instances for SPDVRP-CD"
+version: 1.0
+date-released: 2024-01-01
+url: "https://github.com/mmflynn/SPDVRP-CD"
